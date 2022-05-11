@@ -8,4 +8,3 @@ driver = webdriver::Firefox.for(executable_path = r'C:\WebDrivers\geckodriver.ex
 driver.navigate.to "https://google.com"
 puts "Google is loaded from firefox"
 
-driver = Selenium::WebDriver.for:firefox
